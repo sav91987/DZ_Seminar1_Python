@@ -9,7 +9,7 @@ ticketNumber = input('Введите номер билета (6 цифр): ')
 if len(ticketNumber) != 6:
     print('Введенное число не шестизначное')
 elif int(ticketNumber[0]) + int(ticketNumber[1]) + int(ticketNumber[2]) == int(ticketNumber[3]) + int(ticketNumber[4]) + int(ticketNumber[5]):
-    print(f"Билет {ticketNumber} счастливый")
+    print(f"YES - Билет {ticketNumber} счастливый")
 else:
-    print(f"Билет {ticketNumber} несчастливый")
+    print(f"NO - Билет {ticketNumber} несчастливый")
     
